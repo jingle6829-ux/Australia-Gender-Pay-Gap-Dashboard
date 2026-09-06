@@ -12,12 +12,24 @@ This project delivers a **unified, interactive analytical platform** designed fo
 <img style="width: 80%;" alt="State Map View" src="https://github.com/user-attachments/assets/3ac6f95d-1789-4554-a2db-a1bbb50f85b2" />
 
 ## Data source
+- Australian Bureau of Statistics (ABS): Employee Earnings and Hours (EEH) survey
+- Australian Bureau of Statistics (ABS): Average Weekly Earnings (AWE) survey
+
+## Key Features
+* **Multi-Dimensional Filtering:** Filter data dynamically by state, year, industry, and occupation to perform targeted analysis.
+* **Interactive Choropleth Map:** Visualize state-level metrics spatially using integrated geographic boundary data.
+* **Core Metric Cards:** Instantly track high-level indicators including the Gender Pay Gap Ratio, Participation Rate Gap, and Employee Gap.
+* **Time-Series Analysis:** Explore historical gender pay gap trends spanning from 2010 to 2025.
+* **Paginated & Optimized Layout:** Designed following UX best practices (Miller's Law, Shneiderman's mantra) to minimize cognitive load and maintain a clean, responsive workflow.
 
 ## Tech Stack
+- **Backend/Framework**: Python, Dash, Flask
+- **Data processing**: Pandas, NumPy
+- **Visualization**: Plotly (choropleth maps, interactive charts)
+- **Frontend**: Dash Bootstrap Components
 
-
-<details id=2 open>
+<!-- <details id=2 open>
 <summary><h2>Data Source</h2></summary>
 
 
-</details>
+</details> -->
