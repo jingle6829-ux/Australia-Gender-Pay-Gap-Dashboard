@@ -11,7 +11,7 @@ import plotly.express as px
 # ===========================
 # Loading Data
 # ============================
-file_path = '/Users/jingle/Downloads/Australia-Gender-Pay-Gap-Dashboard/raw data.xlsx'
+file_path = 'raw data.xlsx'
 
 sheet_names = ['state(Weekly Cash earning)', 'population&working hours']
 
