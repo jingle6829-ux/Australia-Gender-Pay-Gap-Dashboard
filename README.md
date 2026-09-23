@@ -28,6 +28,28 @@ This project delivers a **unified, interactive analytical platform** designed fo
 - **Visualization**: Plotly (choropleth maps, interactive charts)
 - **Frontend**: Dash Bootstrap Components
 
+---
+## How to Run Locally
+### Prerequisites
+
+Make sure you have **Python** installed on your computer.
+### Follow these steps to run the dashboard on your local machine:
+
+1. ** Click the green `Code` button on GitHub, select **Download ZIP**, and extract it to your local folder.
+2. **Open your Terminal / Command Prompt:**
+   - **Mac users:** Press `Command + Space`, type `Terminal`, and press `Enter`.
+   - **Windows users:** Press `Win + R`, type `cmd`, and press `Enter`.
+3. **Navigate to the project directory:**
+   Type `cd ` (with a trailing space), then **drag and drop** the extracted project folder directly into the terminal window to auto-fill the path, and press `Enter`.
+4. **Install the required dependencies:**
+   ```bash
+   pip install dash pandas openpyxl
+5. **Run the Dashboard script:**
+    ```bash
+    python Australia-Gender-Pay-Gap-Dashboard.py
+6. **Open the Dashboard:**
+Copy the local URL displayed in your terminal (usually http://127.0.0.1:8050/) and paste it into your web browser.
+
 <!-- <details id=2 open>
 <summary><h2>Data Source</h2></summary>
 
