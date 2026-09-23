@@ -27,7 +27,11 @@ This project delivers a **unified, interactive analytical platform** designed fo
 - **Data processing**: Pandas, NumPy
 - **Visualization**: Plotly (choropleth maps, interactive charts)
 - **Frontend**: Dash Bootstrap Components
+---
 
+## Cloud Deployment
+
+- 🚀 **Status:** Currently in progress. A live web demo will be available soon!
 ---
 ## How to Run Locally
 ### Prerequisites
